@@ -7,10 +7,33 @@ body {
 
 }
 
+ul.navigation {
+	background-color: white;
+	display: block;
+	list-style: none;
+	margin-top: 0;
+	width: 100%;
+	height: 35px;
+}
+
+ul.navigation li {
+	display: inline-block;
+	float: left;
+}
+
+ul.navigation a {
+	color: black;
+	display: block;
+	padding-top: 10px;
+	text-decoration: none;
+}
+
+ul.navigation a:hover {
+	background-color: black;
+	color: white;
+}
+
 .header h1 {
 	font-family: Georgia;
-	line-height: 100px;
-	margin-left: auto;
-	margin-right: auto;
-	color: #00CC00;
+	color: #3366FF;
 }
