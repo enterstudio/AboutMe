@@ -12,6 +12,13 @@ h1 {
 	color: royalblue;
 }
 
+#section1 {
+	background-color: yellow;
+}
+
+#section2 {
+	background-color: orange;
+}
 
 
 ul.navigation {
